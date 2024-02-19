@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(5, 26, 5);
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.right {
+    width: 45%;
+    height: 100vh;
+    background: rgba(148, 196, 134, 1);
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+}
+
+.left {
+    height: 100vh;
+    width: 55%;
+}
+
+.vertical {
+    margin-top: 10%;
+    padding-left: 5%;
+}
+h1 {
+    color: white;
+    padding: 10px 5px;
+    margin: 5px;
+}
+
+.but {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 40px;
+    background-color: rgba(188, 185, 138, 1);
+    margin-top: 35%;
+    margin-left: 10%;
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.but:hover {
+    color: grey;
+}
+
+.mid {
+    /* margin-top: 10%; */
+    /* display: grid; */
+    text-align: center;
+    /* padding-right: 100px; */
+    width: 100%;
+    height: calc(80vh - 130px);
+    display: flex;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    margin: 5% 2.5%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    /* position: relative; */
+    text-align: left;
+    width: 100%;
+}
+
+input {
+    height: 40px;
+    border: 2px solid rgb(6, 6, 6);
+    border-radius: 7px;
+    margin: 5px 0px;
+    outline: none;
+    width: 100%;
+}
+.input-field {
+    font-weight: 500;
+    padding: 0 10px;
+    font-size: 17px;
+    color: black;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    /* width: 350px; */
+    /* margin-left: 38%; */
+    border-radius: 40px;
+}
+.input-field:focus {
+    border: 2px solid red;
+}
+
+.log {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 40px;
+    background: rgba(23, 59, 35, 1);
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    transition: color 0.3s;
+    transition: all 0.3s ease-in-out;
+}
+
+.log:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+}
+form {
+    margin: auto;
+    width: 40%;
+}
+.ag {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+.pp {
+    margin-bottom: -2px;
+}
